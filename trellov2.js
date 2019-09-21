@@ -1,4 +1,4 @@
-let myBoobs= {
+let myMeeting= {
     day:'Monday',
     meetings:10,
     meetDone:0,
@@ -16,5 +16,5 @@ let myBoobs= {
 }
 
 
-myBoobs.addMeeting();
-console.log(myBoobs.letsAdd());
+myMeeting.addMeeting();
+console.log(myMeeting.letsAdd());

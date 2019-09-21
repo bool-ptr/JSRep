@@ -1,4 +1,4 @@
-let myBoobs= {
+let myTexts= {
     day:'Monday',
     meetings:10,
     meetDone:0,
@@ -11,8 +11,8 @@ let myBoobs= {
     }
 
 }
-myBoobs.addMeeting(5);
-console.log(myBoobs.summaryThisShit());
+myTexts.addMeeting(5);
+console.log(myTexts.summaryThisShit());
 //meetings added
 //handle meetings done
 //create function which resets the meetings

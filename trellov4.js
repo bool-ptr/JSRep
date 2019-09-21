@@ -1,7 +1,7 @@
 // const myTask=['dudh peelo frnds', 'college ja','tiffin kha','bari aay','js kor'];
 // console.log(myTask.indexOf('college ja'));
 
-const newBoobs=[{
+const newDeed=[{
 title:'a',
 isDone:false,
 },
@@ -16,7 +16,7 @@ isDone:false,
 
 //callback functions are siple functions but they don't have any name
 
-// const index=newBoobs.findIndex(function(todo,index){
+// const index=newDeed.findIndex(function(todo,index){
 //     return todo.title==='c';
 // });
 // console.log(index);
@@ -27,6 +27,6 @@ const findTodo= function(myTodo,title){
     })
     return myTodo[index];
 }
-let findBoobs= findTodo(newBoobs,'C');
-console.log(findBoobs);
+let findDeed= findTodo(newDeed,'C');
+console.log(findDeed);
 
