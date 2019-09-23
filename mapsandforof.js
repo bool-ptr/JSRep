@@ -1,11 +1,11 @@
 const girl={
-    comment: 'hello bois',
+    comment: 'hello boy',
     age: 19,
     isActive: true,
 }
 
 const boy={
-    comment: 'hello girls',
+    comment: 'hello girl',
     age:20,
     isActive: true,
 }
@@ -25,35 +25,35 @@ users.set('trans',trans);
 console.log(users.values());
 
 console.log(users);
-// console.log(users.size);
-// console.log(users.keys());
+console.log(users.size);
+console.log(users.keys());
 
-// for (const key of users.keys()) {
-//     console.log(key);
+for (const key of users.keys()) {
+    console.log(key);
     
-// }
+}
 
-// console.log(users.values());
-// for (const value of users.values()) {
+console.log(users.values());
+for (const value of users.values()) {
 
-//     console.log(value.comment);
+    console.log(value.comment);
     
-// }
+}
 
-// for (const [key,value] of users.entries()) {
-//     console.log(key+' ='+ value.age);
+for (const [key,value] of users.entries()) {
+    console.log(key+' ='+ value.age);
     
-// }//forOf loop application
+}//forOf loop application
 
-// //for each loop application
-// users.forEach((value,key)=>console.log(key+' = '+ value.age));// see how the order of the pvalue and key have changed. why is this,go home and see
-// var arrOfArray= [['one','1'],['two','2'],['three','3']];
-// var newMap= new Map(arrOfArray);
-// //console.log(newMap);
+//for each loop application
+users.forEach((value,key)=>console.log(key+' = '+ value.age));// see how the order of the pvalue and key have changed. why is this,go home and see
+var arrOfArray= [['one','1'],['two','2'],['three','3']];
+var newMap= new Map(arrOfArray);
+//console.log(newMap);
 
-//  arrOfArray.forEach((value,key)=>{console.log(`${value}+${key+1}`)})
+ arrOfArray.forEach((value,key)=>{console.log(`${value}+${key+1}`)});
 
-// console.log(arrOfArray.keys);
+console.log(arrOfArray.keys);
 
 
 
